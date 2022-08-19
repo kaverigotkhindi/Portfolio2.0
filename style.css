@@ -4,21 +4,43 @@
     box-sizing: border-box;
 
 }
+nav{
+    background-color: #EDEAD3;
+    height: 4rem; 
+}
 ul{
     display: flex;
     justify-content: center;
-   
+    align-items: center;
+    /* background-color: #EDEAD3;  */
+    height: 100%;
+    box-shadow: 0 0 0.2rem 0.2rem rgb(205, 204, 204);
+    
 }
 
 ul li {
     list-style: none;
-    margin-left:2.5rem ;
-    margin-top: 2rem;
+    padding: 2rem 1rem 2rem;
+ 
+    
 }
 
 li a {
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:#6B663F;
     font-family: 'Roboto Slab', serif;
     cursor: pointer;
+
+}
+
+@media all and (max-width: 600px) {
+    ul{
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        text-align: center;
+        
+
+    }
+    
 }
