@@ -5,25 +5,28 @@
 
 }
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),
-     url('assets/luke-chesser-pJadQetzTkI-unsplash.jpg');
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.4)),
+     url('/assets/luke-chesser-pJadQetzTkI-unsplash.jpg');
     background-repeat: no-repeat;
     background-position: center ;
     background-size:cover;
-    height: 100vh;
+    /* height: 100vh; */
 
-}   
+} 
+
 nav{
-    
+   
+  
+   
 }
 ul{
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-right: 3rem;
+    
     height: 4rem; 
     
-    
+    /* background-color: red; */
 }
 
 ul li {
@@ -75,7 +78,7 @@ line-height: 3rem;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
-    background: linear-gradient(rgb(51,39,117),rgb(47,167,186));
+    background: linear-gradient(rgb(51,39,117,0.2),rgb(47,167,186,0.4));
     height: 10rem;
     position: fixed;
     right: 0;
