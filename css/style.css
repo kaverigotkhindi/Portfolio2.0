@@ -5,8 +5,8 @@
 
 }
 body{
-    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.4)),
-     url('/assets/luke-chesser-pJadQetzTkI-unsplash.jpg');
+    /* background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.4)),
+     url('/assets/luke-chesser-pJadQetzTkI-unsplash.jpg'); */
     background-repeat: no-repeat;
     background-position: center ;
     background-size:cover;
@@ -14,11 +14,7 @@ body{
 
 } 
 
-nav{
-   
-  
-   
-}
+
 ul{
     display: flex;
     justify-content: right;
@@ -43,7 +39,7 @@ li a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     cursor: pointer;
-    color: #fff;
+    color: rgb(22, 21, 21);
 
 }
 
@@ -68,22 +64,23 @@ main img{
 main h1,main h3{
 
 font-family: poppins;
-color: #fff;
+color: rgb(32, 30, 30);
 letter-spacing: 0.1rem;
 line-height: 3rem;
 }
 
 .social-media{
-    color: #fff;
+    color: rgb(27, 25, 25);
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
-    background: linear-gradient(rgb(51,39,117,0.2),rgb(47,167,186,0.4));
+    /* background: linear-gradient(rgb(51,39,117,0.2),rgb(47,167,186,0.4)); */
     height: 10rem;
     position: fixed;
     right: 0;
     top:10rem;
     border-radius: 0.5rem;
+    align-items: center;
 }
 iconify-icon{
     cursor: pointer;
