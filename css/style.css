@@ -2,20 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+body{
+    
+    height: 100vh;
+    overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
-
+.container{
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
+    /* width: 100%; */
+    height: 100%;
+}
 nav{
-margin-right: 10rem;
+position: fixed;
+z-index: 1;;
+right: 2rem;
+top:0.2rem;
+
 }
 
 ul{
     display: flex;
     justify-content: right;
     align-items: center;
-    
     height: 4rem; 
-    
     
 }
 
@@ -41,13 +57,17 @@ li a:hover{
     text-decoration: underline;
     text-underline-offset: 0.3rem;
 }
-main{
-    display: flex;
-    
-    margin: 4rem 5rem 4rem 3rem;
+#home{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    /* height: 100vh; */
     position: relative;
+    left: 3rem;
+    background-color: blue;
+    
 }
-main img{
+#home img{
     border-radius: 12rem;
 }
 .description{
@@ -55,7 +75,7 @@ main img{
     margin-left:5rem;
     
 }
-main h1,main h3{
+#home h1,#home h3{
 
 font-family: poppins;
 color: rgb(32, 30, 30);
@@ -70,10 +90,11 @@ line-height: 3rem;
     justify-content:space-evenly;
     height: 10rem;
     position: fixed;
-    right: 0;
+    right: 0.8rem;
     top:10rem;
     border-radius: 0.5rem;
     align-items: center;
+    
 }
 
 
@@ -84,9 +105,11 @@ iconify-icon{
     text-align: center;
     color: rgb(0, 0, 0);
 }
-#my-work h1{
+#my-work p{
     text-align: center;
     margin-bottom: 4rem;
+    font-size: 1.5rem;
+    font-weight: 900;
    }
 #my-work img{
  width: 26rem;
@@ -98,4 +121,10 @@ iconify-icon{
 }
 .blog-links img:hover{
     opacity:0.6;
+}
+section{
+   
+    /* width: 100%; */
+    height: 100vh;
+    /* scroll-snap-align: center; */
 }
